@@ -37,3 +37,48 @@ C:\Users\furian.MBI\Documents\Auckland\HCDESLib\SampleHospitalModel\bin\Debug\WP
 C:\Users\furian.MBI\Documents\Auckland\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.csprojResolveAssemblyReference.cache
 C:\Users\furian.MBI\Documents\Auckland\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.dll
 C:\Users\furian.MBI\Documents\Auckland\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.pdb
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\bin\Debug\SampleHospitalModel.dll
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\bin\Debug\SampleHospitalModel.pdb
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\bin\Debug\GeneralHealthCareElementsLibrary.dll
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\bin\Debug\SimulationCoreLibrary.dll
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\bin\Debug\SimulationWPFVisualizationTools.dll
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\bin\Debug\WPFVisualizationBase.dll
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\bin\Debug\GeneralHealthCareElementsLibrary.pdb
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\bin\Debug\SimulationCoreLibrary.pdb
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\bin\Debug\SimulationWPFVisualizationTools.pdb
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\bin\Debug\WPFVisualizationBase.pdb
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.csproj.AssemblyReference.cache
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.csproj.CoreCompileInputs.cache
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.csproj.CopyComplete
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.dll
+C:\Users\domi\git\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\bin\Debug\SampleHospitalModel.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\bin\Debug\SampleHospitalModel.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\bin\Debug\GeneralHealthCareElementsLibrary.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\bin\Debug\SimulationCoreLibrary.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\bin\Debug\SimulationWPFVisualizationTools.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\bin\Debug\WPFVisualizationBase.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\bin\Debug\GeneralHealthCareElementsLibrary.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\bin\Debug\SimulationCoreLibrary.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\bin\Debug\SimulationWPFVisualizationTools.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\bin\Debug\WPFVisualizationBase.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\obj\Debug\SampleHospitalModel.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\obj\Debug\SampleHospitalModel.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\obj\Debug\SampleHospitalModel.csproj.CopyComplete
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\obj\Debug\SampleHospitalModel.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\SampleHospitalModel\obj\Debug\SampleHospitalModel.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\bin\Debug\SampleHospitalModel.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\bin\Debug\SampleHospitalModel.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\bin\Debug\GeneralHealthCareElementsLibrary.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\bin\Debug\SimulationCoreLibrary.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\bin\Debug\SimulationWPFVisualizationTools.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\bin\Debug\WPFVisualizationBase.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\bin\Debug\GeneralHealthCareElementsLibrary.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\bin\Debug\SimulationCoreLibrary.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\bin\Debug\SimulationWPFVisualizationTools.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\bin\Debug\WPFVisualizationBase.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.csproj.AssemblyReference.cache
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.csproj.CoreCompileInputs.cache
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.csproj.CopyComplete
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\SampleHospitalModel\obj\Debug\SampleHospitalModel.pdb

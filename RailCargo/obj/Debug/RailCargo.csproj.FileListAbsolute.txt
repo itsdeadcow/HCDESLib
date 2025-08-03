@@ -1,0 +1,59 @@
+C:\Users\domi\git\HCDESLib\RailCargo\bin\Debug\RailCargo.dll
+C:\Users\domi\git\HCDESLib\RailCargo\bin\Debug\RailCargo.pdb
+C:\Users\domi\git\HCDESLib\RailCargo\obj\Debug\RailCargo.csproj.AssemblyReference.cache
+C:\Users\domi\git\HCDESLib\RailCargo\obj\Debug\RailCargo.csproj.CoreCompileInputs.cache
+C:\Users\domi\git\HCDESLib\RailCargo\obj\Debug\RailCargo.dll
+C:\Users\domi\git\HCDESLib\RailCargo\obj\Debug\RailCargo.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\obj\Debug\RailCargo.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\obj\Debug\RailCargo.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\obj\Debug\RailCargo.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\obj\Debug\RailCargo.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\bin\Debug\RailCargo.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\bin\Debug\RailCargo.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\bin\Debug\SimulationCoreLibrary.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\bin\Debug\SimulationWPFVisualizationTools.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\bin\Debug\WPFVisualizationBase.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\bin\Debug\SimulationCoreLibrary.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\bin\Debug\SimulationWPFVisualizationTools.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\bin\Debug\WPFVisualizationBase.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\RailCargo\obj\Debug\RailCargo.csproj.CopyComplete
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\RailCargo.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\RailCargo.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\SimulationCoreLibrary.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\SimulationWPFVisualizationTools.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\WPFVisualizationBase.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\SimulationCoreLibrary.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\SimulationWPFVisualizationTools.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\WPFVisualizationBase.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\obj\Debug\RailCargo.csproj.AssemblyReference.cache
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\obj\Debug\RailCargo.csproj.CoreCompileInputs.cache
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\obj\Debug\RailCargo.csproj.CopyComplete
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\obj\Debug\RailCargo.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\obj\Debug\RailCargo.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\RailCargo.dll.config
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Buffers.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Memory.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Text.Json.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.ValueTuple.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Buffers.xml
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Memory.xml
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Text.Json.xml
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\System.ValueTuple.xml
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\Newtonsoft.Json.xml
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\EPPlus.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\EPPlus.xml
+C:\Users\koenig11\RiderProjects\HCDESLib\RailCargo\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml

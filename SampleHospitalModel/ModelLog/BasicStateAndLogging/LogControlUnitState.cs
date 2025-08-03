@@ -47,7 +47,7 @@ namespace SampleHospitalModel.ModelLog
                 description.Append(childState.GetDescription());
             } // end foreach
 
-            _logState = description.ToString();
+            //_logState = description.ToString();
         } // end of LogControlUnitState
 
         #endregion

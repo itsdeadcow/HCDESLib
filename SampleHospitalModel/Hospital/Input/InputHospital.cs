@@ -32,5 +32,5 @@ namespace SampleHospitalModel.Hospital
 
         #endregion
 
-    } // end of InputHospital
+    } // end of InputHospital,
 }

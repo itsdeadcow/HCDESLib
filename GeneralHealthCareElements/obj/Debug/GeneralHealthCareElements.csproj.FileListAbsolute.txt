@@ -1,14 +1,45 @@
-C:\Users\Nik\Documents\Auckland\HCDESLib\GeneralHealthCareElements\bin\Debug\GeneralHealthCareElementsLibrary.dll
-C:\Users\Nik\Documents\Auckland\HCDESLib\GeneralHealthCareElements\bin\Debug\GeneralHealthCareElementsLibrary.pdb
-C:\Users\Nik\Documents\Auckland\HCDESLib\GeneralHealthCareElements\bin\Debug\SimulationCoreLibrary.dll
-C:\Users\Nik\Documents\Auckland\HCDESLib\GeneralHealthCareElements\bin\Debug\SimulationCoreLibrary.pdb
-C:\Users\Nik\Documents\Auckland\HCDESLib\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElements.csprojResolveAssemblyReference.cache
-C:\Users\Nik\Documents\Auckland\HCDESLib\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElementsLibrary.dll
-C:\Users\Nik\Documents\Auckland\HCDESLib\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElementsLibrary.pdb
-C:\Users\furian.MBI\Documents\Auckland\HCDESLib\GeneralHealthCareElements\bin\Debug\GeneralHealthCareElementsLibrary.dll
-C:\Users\furian.MBI\Documents\Auckland\HCDESLib\GeneralHealthCareElements\bin\Debug\GeneralHealthCareElementsLibrary.pdb
-C:\Users\furian.MBI\Documents\Auckland\HCDESLib\GeneralHealthCareElements\bin\Debug\SimulationCoreLibrary.dll
-C:\Users\furian.MBI\Documents\Auckland\HCDESLib\GeneralHealthCareElements\bin\Debug\SimulationCoreLibrary.pdb
-C:\Users\furian.MBI\Documents\Auckland\HCDESLib\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElements.csprojResolveAssemblyReference.cache
-C:\Users\furian.MBI\Documents\Auckland\HCDESLib\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElementsLibrary.dll
-C:\Users\furian.MBI\Documents\Auckland\HCDESLib\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElementsLibrary.pdb
+C:/Users/Nik/Documents/Auckland/HCDESLib/GeneralHealthCareElements/bin/Debug/GeneralHealthCareElementsLibrary.dll
+C:/Users/Nik/Documents/Auckland/HCDESLib/GeneralHealthCareElements/bin/Debug/GeneralHealthCareElementsLibrary.pdb
+C:/Users/Nik/Documents/Auckland/HCDESLib/GeneralHealthCareElements/bin/Debug/SimulationCoreLibrary.dll
+C:/Users/Nik/Documents/Auckland/HCDESLib/GeneralHealthCareElements/bin/Debug/SimulationCoreLibrary.pdb
+C:/Users/Nik/Documents/Auckland/HCDESLib/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElements.csprojResolveAssemblyReference.cache
+C:/Users/Nik/Documents/Auckland/HCDESLib/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElementsLibrary.dll
+C:/Users/Nik/Documents/Auckland/HCDESLib/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElementsLibrary.pdb
+C:/Users/furian.MBI/Documents/Auckland/HCDESLib/GeneralHealthCareElements/bin/Debug/GeneralHealthCareElementsLibrary.dll
+C:/Users/furian.MBI/Documents/Auckland/HCDESLib/GeneralHealthCareElements/bin/Debug/GeneralHealthCareElementsLibrary.pdb
+C:/Users/furian.MBI/Documents/Auckland/HCDESLib/GeneralHealthCareElements/bin/Debug/SimulationCoreLibrary.dll
+C:/Users/furian.MBI/Documents/Auckland/HCDESLib/GeneralHealthCareElements/bin/Debug/SimulationCoreLibrary.pdb
+C:/Users/furian.MBI/Documents/Auckland/HCDESLib/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElements.csprojResolveAssemblyReference.cache
+C:/Users/furian.MBI/Documents/Auckland/HCDESLib/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElementsLibrary.dll
+C:/Users/furian.MBI/Documents/Auckland/HCDESLib/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElementsLibrary.pdb
+C:/Users/domi/git/HCDESLib/GeneralHealthCareElements/bin/Debug/GeneralHealthCareElementsLibrary.dll
+C:/Users/domi/git/HCDESLib/GeneralHealthCareElements/bin/Debug/GeneralHealthCareElementsLibrary.pdb
+C:/Users/domi/git/HCDESLib/GeneralHealthCareElements/bin/Debug/SimulationCoreLibrary.dll
+C:/Users/domi/git/HCDESLib/GeneralHealthCareElements/bin/Debug/SimulationCoreLibrary.pdb
+C:/Users/domi/git/HCDESLib/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElements.csproj.AssemblyReference.cache
+C:/Users/domi/git/HCDESLib/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElements.csproj.CoreCompileInputs.cache
+C:/Users/domi/git/HCDESLib/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElements.csproj.CopyComplete
+C:/Users/domi/git/HCDESLib/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElementsLibrary.dll
+C:/Users/domi/git/HCDESLib/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElementsLibrary.pdb
+/Users/domi/Desktop/masterarbeit könig/hcdes/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElements.csproj.AssemblyReference.cache
+/Users/domi/Desktop/masterarbeit könig/hcdes/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElements.csproj.CoreCompileInputs.cache
+/Users/domi/Desktop/masterarbeit könig/hcdes/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElementsLibrary.dll
+/Users/domi/Desktop/masterarbeit könig/hcdes/GeneralHealthCareElements/obj/Debug/GeneralHealthCareElementsLibrary.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\GeneralHealthCareElements\bin\Debug\GeneralHealthCareElementsLibrary.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\GeneralHealthCareElements\bin\Debug\GeneralHealthCareElementsLibrary.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\GeneralHealthCareElements\bin\Debug\SimulationCoreLibrary.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\GeneralHealthCareElements\bin\Debug\SimulationCoreLibrary.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElements.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElements.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElements.csproj.CopyComplete
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElementsLibrary.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElementsLibrary.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\GeneralHealthCareElements\bin\Debug\GeneralHealthCareElementsLibrary.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\GeneralHealthCareElements\bin\Debug\GeneralHealthCareElementsLibrary.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\GeneralHealthCareElements\bin\Debug\SimulationCoreLibrary.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\GeneralHealthCareElements\bin\Debug\SimulationCoreLibrary.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElements.csproj.AssemblyReference.cache
+C:\Users\koenig11\RiderProjects\HCDESLib\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElements.csproj.CoreCompileInputs.cache
+C:\Users\koenig11\RiderProjects\HCDESLib\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElements.csproj.CopyComplete
+C:\Users\koenig11\RiderProjects\HCDESLib\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElementsLibrary.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\GeneralHealthCareElements\obj\Debug\GeneralHealthCareElementsLibrary.pdb

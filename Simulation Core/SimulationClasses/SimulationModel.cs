@@ -87,13 +87,17 @@ namespace SimulationCore.SimulationClasses
         /// <param name="simEngine"></param>
         public void Initialize(ISimulationEngine simEngine)
         {
+            _simEngine = simEngine;
             AddControlUnit(RootControlUnit);
 
             RootControlUnit.Initialize(StartTime, simEngine);
 
             CustomInitializeModel();
 
-        } // end of Initialize
+        }
+
+        public ISimulationEngine SimEngine => _simEngine;
+        // end of Initialize
 
         #endregion
 
@@ -199,8 +203,8 @@ namespace SimulationCore.SimulationClasses
         /// Virtual method to be overwritten if actions at end of model execution are required.
         /// </summary>
         public virtual void CreateSimulationResultsAfterStop()
-        { 
-        
+        {
+
         } // end of DisplaySimulationResultsAfterStop
 
         #endregion
@@ -343,6 +347,7 @@ namespace SimulationCore.SimulationClasses
         #region SimulationDrawingEngine
 
         protected IDrawingSimulationEngine _simulationDrawingEngine;
+        private ISimulationEngine _simEngine;
 
         public IDrawingSimulationEngine SimulationDrawingEngine
         {

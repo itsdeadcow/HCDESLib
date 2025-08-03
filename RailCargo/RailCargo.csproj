@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{49458A63-B651-4645-8887-F4B06C1EDBC6}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>RailCargo</RootNamespace>
+        <AssemblyName>RailCargo</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="EPPlus, Version=7.0.0.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\EPPlus.7.0.0-preview1\lib\net462\EPPlus.dll</HintPath>
+        </Reference>
+        <Reference Include="EPPlus.Interfaces, Version=6.1.1.0, Culture=neutral, PublicKeyToken=a694d7f3b0907a61, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\EPPlus.Interfaces.6.1.1\lib\net462\EPPlus.Interfaces.dll</HintPath>
+        </Reference>
+        <Reference Include="EPPlus.System.Drawing, Version=6.1.1.0, Culture=neutral, PublicKeyToken=2308d35469c9bac0, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\EPPlus.System.Drawing.6.1.1\lib\net462\EPPlus.System.Drawing.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0-preview.5.23280.8\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.IO.RecyclableMemoryStream, Version=1.4.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\Microsoft.IO.RecyclableMemoryStream.1.4.1\lib\net46\Microsoft.IO.RecyclableMemoryStream.dll</HintPath>
+        </Reference>
+        <Reference Include="mscorlib" />
+        <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+        </Reference>
+        <Reference Include="PresentationCore" />
+        <Reference Include="System" />
+        <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+        </Reference>
+        <Reference Include="System.configuration" />
+        <Reference Include="System.Core" />
+        <Reference Include="System.Data" />
+        <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Numerics" />
+        <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Security" />
+        <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\System.Text.Encodings.Web.8.0.0-preview.5.23280.8\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\System.Text.Json.8.0.0-preview.5.23280.8\lib\net462\System.Text.Json.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Threading.Tasks" />
+        <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+        </Reference>
+        <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+          <HintPath>..\HiCoSimulator\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Xml" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Simulation Core\SimulationCore.csproj">
+            <Project>{46743dc8-423c-42dc-988e-d42853d9ba4e}</Project>
+            <Name>SimulationCore</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\SimulationWPFVisualizationTools\SimulationWPFVisualizationTools.csproj">
+            <Project>{04d17195-bb5d-495a-b564-490e8711556c}</Project>
+            <Name>SimulationWPFVisualizationTools</Name>
+        </ProjectReference>
+        <ProjectReference Include="..\WPFVisualizationBase\WPFVisualizationBase\WPFVisualizationBase.csproj">
+            <Project>{77cc14e4-2538-4ad6-8f29-986b0b63eb27}</Project>
+            <Name>WPFVisualizationBase</Name>
+        </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="HCCM\Activities\AcitvityDriveToDepatureArea.cs" />
+        <Compile Include="HCCM\Activities\ActivityShuntingWagon.cs" />
+        <Compile Include="HCCM\Activities\ActivityShuntingWagons.cs" />
+        <Compile Include="HCCM\Activities\ActivityTrainCreation.cs" />
+        <Compile Include="HCCM\Activities\ActivityTrainDrive.cs" />
+        <Compile Include="HCCM\Activities\ActivityTrainPreparation.cs" />
+        <Compile Include="HCCM\Activities\ActivityTrainWaitingForDeparture.cs" />
+        <Compile Include="HCCM\Activities\ActivityWagonCollection.cs" />
+        <Compile Include="HCCM\Activities\ActivityWaitingForAllowance.cs" />
+        <Compile Include="HCCM\Activities\ActivityWaitingForSilo.cs" />
+        <Compile Include="HCCM\Activities\ActivityWaitingForTrainSelectionSilo.cs" />
+        <Compile Include="HCCM\Activities\ActivityWaitingForTrainSelectionWagon.cs" />
+        <Compile Include="HCCM\Activities\ActivityWaitingInDepartureArea.cs" />
+        <Compile Include="HCCM\Activities\ActivityWaitingInSilo.cs" />
+        <Compile Include="HCCM\ControlUnits\CU_BookingSystem.cs" />
+        <Compile Include="HCCM\ControlUnits\CU_Network.cs" />
+        <Compile Include="HCCM\ControlUnits\CU_RoutingPath.cs" />
+        <Compile Include="HCCM\ControlUnits\CU_ShuntingYard.cs" />
+        <Compile Include="HCCM\Entities\EntityArrivalArea.cs" />
+        <Compile Include="HCCM\Entities\EntityBookingSystem.cs" />
+        <Compile Include="HCCM\Entities\EntityDepartureArea.cs" />
+        <Compile Include="HCCM\Entities\EntityNetworkPath.cs" />
+        <Compile Include="HCCM\Entities\EntitySilo.cs" />
+        <Compile Include="HCCM\Entities\EntityTrain.cs" />
+        <Compile Include="HCCM\Entities\EntityWagon.cs" />
+        <Compile Include="HCCM\Events\EventFreeSilo.cs" />
+        <Compile Include="HCCM\Events\EventSiloFinished.cs" />
+        <Compile Include="HCCM\Events\EventSiloSelection.cs" />
+        <Compile Include="HCCM\Events\EventTrainArrival.cs" />
+        <Compile Include="HCCM\Events\EventTrainArrivalInEndDestination.cs" />
+        <Compile Include="HCCM\Events\EventTrainCreation.cs" />
+        <Compile Include="HCCM\Events\EventTrainDepartureTimeWillArriveIn.cs" />
+        <Compile Include="HCCM\Events\EventTrainDepartureIncoming.cs" />
+        <Compile Include="HCCM\Events\EventTrainDepartureTimeArrived.cs" />
+        <Compile Include="HCCM\Events\EventTrainSelection.cs" />
+        <Compile Include="HCCM\Events\EventWagonArrival.cs" />
+        <Compile Include="HCCM\Events\EventWagonArrivalInEndDestination.cs" />
+        <Compile Include="HCCM\Input\InputPath.cs" />
+        <Compile Include="HCCM\Input\InputTimeTable.cs" />
+        <Compile Include="HCCM\Requests\RequestForDeparture.cs" />
+        <Compile Include="HCCM\Requests\RequestForDepartureArea.cs" />
+        <Compile Include="HCCM\Requests\RequestForSilo.cs" />
+        <Compile Include="HCCM\Requests\RequestSiloStatus.cs" />
+        <Compile Include="HCCM\Requests\RequestDepartureAllowed.cs" />
+        <Compile Include="HCCM\Requests\RequestSorting.cs" />
+        <Compile Include="HCCM\Requests\RequestTrainContinuation.cs" />
+        <Compile Include="HCCM\staticVariables\AllShuntingYards.cs" />
+        <Compile Include="HCCM\staticVariables\Constants.cs" />
+        <Compile Include="HCCM\staticVariables\Helper.cs" />
+        <Compile Include="Properties\AssemblyInfo.cs" />
+        <Compile Include="TrainNetworkSimulation.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="HCCM\Data\TimeTable.csv" />
+      <Content Include="HCCM\Data\timetable_simulation.json" />
+      <Content Include="HCCM\Data\timetable_simulation_model_1.json" />
+      <Content Include="HCCM\Data\timetable_simulation_model_2.json" />
+      <Content Include="HCCM\Data\timetable_simulation_test.json" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="App.config" />
+      <None Include="packages.config" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>

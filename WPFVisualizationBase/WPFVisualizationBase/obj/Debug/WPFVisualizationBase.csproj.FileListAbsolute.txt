@@ -1,15 +1,37 @@
-C:\Users\Nik\Documents\Auckland\HCCM\NiksWorkingDir\Source\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.csprojResolveAssemblyReference.cache
-C:\Users\Nik\Documents\Auckland\HCCM\NiksWorkingDir\Source\WPFVisualizationBase\WPFVisualizationBase\bin\Debug\WPFVisualizationBase.dll
-C:\Users\Nik\Documents\Auckland\HCCM\NiksWorkingDir\Source\WPFVisualizationBase\WPFVisualizationBase\bin\Debug\WPFVisualizationBase.pdb
-C:\Users\Nik\Documents\Auckland\HCCM\NiksWorkingDir\Source\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.dll
-C:\Users\Nik\Documents\Auckland\HCCM\NiksWorkingDir\Source\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.pdb
-C:\Users\Nik\Documents\Auckland\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\bin\Debug\WPFVisualizationBase.dll
-C:\Users\Nik\Documents\Auckland\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\bin\Debug\WPFVisualizationBase.pdb
-C:\Users\Nik\Documents\Auckland\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.csprojResolveAssemblyReference.cache
-C:\Users\Nik\Documents\Auckland\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.dll
-C:\Users\Nik\Documents\Auckland\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.pdb
-C:\Users\furian.MBI\Documents\Auckland\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\bin\Debug\WPFVisualizationBase.dll
-C:\Users\furian.MBI\Documents\Auckland\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\bin\Debug\WPFVisualizationBase.pdb
-C:\Users\furian.MBI\Documents\Auckland\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.csprojResolveAssemblyReference.cache
-C:\Users\furian.MBI\Documents\Auckland\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.dll
-C:\Users\furian.MBI\Documents\Auckland\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.pdb
+C:/Users/Nik/Documents/Auckland/HCCM/NiksWorkingDir/Source/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.csprojResolveAssemblyReference.cache
+C:/Users/Nik/Documents/Auckland/HCCM/NiksWorkingDir/Source/WPFVisualizationBase/WPFVisualizationBase/bin/Debug/WPFVisualizationBase.dll
+C:/Users/Nik/Documents/Auckland/HCCM/NiksWorkingDir/Source/WPFVisualizationBase/WPFVisualizationBase/bin/Debug/WPFVisualizationBase.pdb
+C:/Users/Nik/Documents/Auckland/HCCM/NiksWorkingDir/Source/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.dll
+C:/Users/Nik/Documents/Auckland/HCCM/NiksWorkingDir/Source/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.pdb
+C:/Users/Nik/Documents/Auckland/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/bin/Debug/WPFVisualizationBase.dll
+C:/Users/Nik/Documents/Auckland/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/bin/Debug/WPFVisualizationBase.pdb
+C:/Users/Nik/Documents/Auckland/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.csprojResolveAssemblyReference.cache
+C:/Users/Nik/Documents/Auckland/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.dll
+C:/Users/Nik/Documents/Auckland/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.pdb
+C:/Users/furian.MBI/Documents/Auckland/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/bin/Debug/WPFVisualizationBase.dll
+C:/Users/furian.MBI/Documents/Auckland/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/bin/Debug/WPFVisualizationBase.pdb
+C:/Users/furian.MBI/Documents/Auckland/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.csprojResolveAssemblyReference.cache
+C:/Users/furian.MBI/Documents/Auckland/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.dll
+C:/Users/furian.MBI/Documents/Auckland/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.pdb
+C:/Users/domi/git/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/bin/Debug/WPFVisualizationBase.dll
+C:/Users/domi/git/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/bin/Debug/WPFVisualizationBase.pdb
+C:/Users/domi/git/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.csproj.AssemblyReference.cache
+C:/Users/domi/git/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.csproj.CoreCompileInputs.cache
+C:/Users/domi/git/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.dll
+C:/Users/domi/git/HCDESLib/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.pdb
+/Users/domi/Desktop/masterarbeit könig/hcdes/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.csproj.AssemblyReference.cache
+/Users/domi/Desktop/masterarbeit könig/hcdes/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.csproj.CoreCompileInputs.cache
+/Users/domi/Desktop/masterarbeit könig/hcdes/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.dll
+/Users/domi/Desktop/masterarbeit könig/hcdes/WPFVisualizationBase/WPFVisualizationBase/obj/Debug/WPFVisualizationBase.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\WPFVisualizationBase\WPFVisualizationBase\bin\Debug\WPFVisualizationBase.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\WPFVisualizationBase\WPFVisualizationBase\bin\Debug\WPFVisualizationBase.pdb
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.csproj.AssemblyReference.cache
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.dll
+\\Mac\Home\Desktop\masterarbeit könig\hcdes\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\bin\Debug\WPFVisualizationBase.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\bin\Debug\WPFVisualizationBase.pdb
+C:\Users\koenig11\RiderProjects\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.csproj.AssemblyReference.cache
+C:\Users\koenig11\RiderProjects\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.csproj.CoreCompileInputs.cache
+C:\Users\koenig11\RiderProjects\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.dll
+C:\Users\koenig11\RiderProjects\HCDESLib\WPFVisualizationBase\WPFVisualizationBase\obj\Debug\WPFVisualizationBase.pdb

@@ -1,0 +1,278 @@
+[
+  {
+    "id": 73810,
+    "departure_time": "2023-03-31 02:54:00",
+    "arrival_time": "2023-03-31 03:13:00",
+    "start_location": "81010801",
+    "end_location": "81010868",
+    "start_train": true,
+    "end_train": false,
+    "train_weight": 150,
+    "train_length": 250,
+    "formations_time": 90,
+    "disassemble_time": 35,
+    "rpc_codes": [
+      [
+        "963-41",
+        "963-41"
+      ],
+      [
+        "963-40",
+        "963-40"
+      ],
+      [
+        "963-42",
+        "963-49"
+      ],
+      [
+        "963-50",
+        "963-69"
+      ],
+      [
+        "963-50",
+        "963-69"
+      ],
+      [
+        "963-40",
+        "963-40"
+      ],
+      [
+        "963-42",
+        "963-49"
+      ],
+      [
+        "963-41",
+        "963-41"
+      ]
+    ],
+    "wagons": [
+      {
+        "wagon_id": "318127391270",
+        "wagon_mass": "73200.0",
+        "wagon_length": "23.27",
+        "destination_rpc": "963-50",
+        "end_location": "81018861",
+        "start_location": "81010801",
+        "end_time": "2023-03-31 06:28:00",
+        "acceptance_date": "2023-03-30 06:28:00"
+      },
+      {
+        "wagon_id": "318127391271",
+        "wagon_mass": "73200.0",
+        "wagon_length": "23.27",
+        "destination_rpc": "963-50",
+        "end_location": "81018861",
+        "start_location": "81010801",
+        "end_time": "2023-03-31 06:28:00",
+        "acceptance_date": "2023-03-30 06:28:00"
+      }
+    ]
+  },
+  {
+    "id": 73811,
+    "departure_time": "2023-03-31 02:54:00",
+    "arrival_time": "2023-03-31 02:12:00",
+    "start_location": "81010801",
+    "end_location": "81010868",
+    "start_train": true,
+    "end_train": false,
+    "train_weight": 740,
+    "train_length": 250,
+    "formations_time": 90,
+    "disassemble_time": 35,
+    "rpc_codes": [
+      [
+        "963-41",
+        "963-41"
+      ],
+      [
+        "963-40",
+        "963-40"
+      ],
+      [
+        "963-42",
+        "963-49"
+      ],
+      [
+        "963-50",
+        "963-69"
+      ],
+      [
+        "963-50",
+        "963-69"
+      ],
+      [
+        "963-40",
+        "963-40"
+      ],
+      [
+        "963-42",
+        "963-49"
+      ],
+      [
+        "963-41",
+        "963-41"
+      ]
+    ],
+    "wagons": [
+      {
+        "wagon_id": "318127391272",
+        "wagon_mass": "73200.0",
+        "wagon_length": "23.27",
+        "destination_rpc": "963-50",
+        "end_location": "81018861",
+        "start_location": "81010801",
+        "end_time": "2023-03-31 06:28:00",
+        "acceptance_date": "2023-03-30 06:28:00"
+      },
+      {
+        "wagon_id": "318127391273",
+        "wagon_mass": "73200.0",
+        "wagon_length": "23.27",
+        "destination_rpc": "963-50",
+        "end_location": "81018861",
+        "start_location": "81010801",
+        "end_time": "2023-03-31 06:28:00",
+        "acceptance_date": "2023-03-30 06:28:00"
+      }
+    ]
+  },
+  {
+    "id": 73810,
+    "departure_time": "2023-03-31 04:00:00",
+    "arrival_time": "2023-03-31 08:30:00",
+    "start_location": "81010868",
+    "end_location": "81018861",
+    "start_train": false,
+    "end_train": true,
+    "train_weight": 74,
+    "train_length": 250,
+    "formations_time": 60,
+    "disassemble_time": 45,
+    "rpc_codes": [
+      [
+        "963-41",
+        "963-41"
+      ],
+      [
+        "963-40",
+        "963-40"
+      ],
+      [
+        "963-42",
+        "963-49"
+      ],
+      [
+        "963-50",
+        "963-69"
+      ],
+      [
+        "963-50",
+        "963-69"
+      ],
+      [
+        "963-40",
+        "963-40"
+      ],
+      [
+        "963-42",
+        "963-49"
+      ],
+      [
+        "963-41",
+        "963-41"
+      ]
+    ],
+    "wagons": [
+      {
+        "wagon_id": "318127391270",
+        "wagon_mass": "73200.0",
+        "wagon_length": "23.27",
+        "destination_rpc": "963-50",
+        "end_location": "81018861",
+        "start_location": "81010801",
+        "end_time": "2023-03-31 06:28:00",
+        "acceptance_date": "2023-03-30 06:28:00"
+      },
+      {
+        "wagon_id": "318127391271",
+        "wagon_mass": "73200.0",
+        "wagon_length": "23.27",
+        "destination_rpc": "963-50",
+        "end_location": "81018861",
+        "start_location": "81010868",
+        "end_time": "2023-03-31 06:28:00",
+        "acceptance_date": "2023-03-30 06:28:00"
+      }
+    ]
+  },
+  {
+    "id": 73812,
+    "departure_time": "2023-03-31 06:00:00",
+    "arrival_time": "2023-03-31 08:30:00",
+    "start_location": "81010868",
+    "end_location": "81018861",
+    "start_train": true,
+    "end_train": true,
+    "train_weight": 740,
+    "train_length": 250,
+    "formations_time": 60,
+    "disassemble_time": 45,
+    "rpc_codes": [
+      [
+        "963-41",
+        "963-41"
+      ],
+      [
+        "963-40",
+        "963-40"
+      ],
+      [
+        "963-42",
+        "963-49"
+      ],
+      [
+        "963-50",
+        "963-69"
+      ],
+      [
+        "963-50",
+        "963-69"
+      ],
+      [
+        "963-40",
+        "963-40"
+      ],
+      [
+        "963-42",
+        "963-49"
+      ],
+      [
+        "963-41",
+        "963-41"
+      ]
+    ],
+    "wagons": [
+      {
+        "wagon_id": "318127391274",
+        "wagon_mass": "73200.0",
+        "wagon_length": "23.27",
+        "destination_rpc": "963-50",
+        "end_location": "81018861",
+        "start_location": "81010868",
+        "end_time": "2023-03-31 06:28:00",
+        "acceptance_date": "2023-03-30 06:28:00"
+      },
+      {
+        "wagon_id": "318127391275",
+        "wagon_mass": "73200.0",
+        "wagon_length": "23.27",
+        "destination_rpc": "963-50",
+        "end_location": "81018861",
+        "start_location": "81010868",
+        "end_time": "2023-03-31 06:28:00",
+        "acceptance_date": "2023-03-30 06:28:00"
+      }
+    ]
+  }
+]

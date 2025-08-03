@@ -16,7 +16,6 @@ namespace GeneralHealthCareElements.DepartmentModels.Emergency
     /// </summary>
     public class EventEmergencyPatientArrival : Event
     {
-
         #region Constructor
 
         /// <summary>
@@ -25,7 +24,8 @@ namespace GeneralHealthCareElements.DepartmentModels.Emergency
         /// <param name="parentControlUnit">Parent emergency department control</param>
         /// <param name="patient">Patient that arrives</param>
         /// <param name="inputData">Correpsonding Emergency Input data</param>
-        public EventEmergencyPatientArrival(ControlUnit parentControlUnit, EntityPatient patient, IInputEmergency inputData)
+        public EventEmergencyPatientArrival(ControlUnit parentControlUnit, EntityPatient patient,
+            IInputEmergency inputData)
             : base(EventType.Standalone, parentControlUnit)
         {
             _patient = patient;
@@ -51,14 +51,15 @@ namespace GeneralHealthCareElements.DepartmentModels.Emergency
             // if patient has a path it is updated
             if (Patient.EmergencyTreatmentPath != null)
             {
-                Patient.EmergencyTreatmentPath.UpdateNextAction();               
+                Patient.EmergencyTreatmentPath.UpdateNextAction();
             }
             else
             {
                 // if patient has no path he is arriving externaly
 
                 // path is created
-                Patient.EmergencyTreatmentPath = ((ControlUnitEmergency)ParentControlUnit).InputData.CreateEmergencyPath(Patient);
+                Patient.EmergencyTreatmentPath =
+                    ((ControlUnitEmergency)ParentControlUnit).InputData.CreateEmergencyPath(Patient);
 
                 // patient is added to control unit
                 ParentControlUnit.AddEntity(Patient);
@@ -66,28 +67,31 @@ namespace GeneralHealthCareElements.DepartmentModels.Emergency
                 // arrival of next patient is created and scheduled
                 EntityPatient nextPatient = ((ControlUnitEmergency)ParentControlUnit).InputData.GetNextPatient();
 
-                EventEmergencyPatientArrival nextPatientArrival = new EventEmergencyPatientArrival(ParentControlUnit, nextPatient, InputData);
+                EventEmergencyPatientArrival nextPatientArrival =
+                    new EventEmergencyPatientArrival(ParentControlUnit, nextPatient, InputData);
 
-                simEngine.AddScheduledEvent(nextPatientArrival, time + ((ControlUnitEmergency)ParentControlUnit).InputData.PatientArrivalTime(time));
-
+                simEngine.AddScheduledEvent(nextPatientArrival,
+                    time + ((ControlUnitEmergency)ParentControlUnit).InputData.PatientArrivalTime(time));
             } // end if
 
             // next action on path is taken
             if (Patient.EmergencyTreatmentPath.TakeNextAction(simEngine, this, time, ParentControlUnit))
             {
                 // possible waiting or waiting in facility is triggered
-                if (Patient.OccupiedFacility == null || Patient.OccupiedFacility.ParentDepartmentControl != ParentControlUnit)
+                if (Patient.OccupiedFacility == null ||
+                    Patient.OccupiedFacility.ParentDepartmentControl != ParentControlUnit)
                 {
-                    SequentialEvents.Add(Patient.StartWaitingActivity(((ControlUnitEmergency)ParentControlUnit).WaitingAreaPatientForNextActionType(Patient.EmergencyTreatmentPath.GetCurrentActionType())));
+                    SequentialEvents.Add(Patient.StartWaitingActivity(
+                        ((ControlUnitEmergency)ParentControlUnit).WaitingAreaPatientForNextActionType(
+                            Patient.EmergencyTreatmentPath.GetCurrentActionType())));
                 }
                 else
                 {
-                    ActivityWaitInFacility waitInFacility = new ActivityWaitInFacility(ParentControlUnit, Patient, Patient.OccupiedFacility);
+                    ActivityWaitInFacility waitInFacility =
+                        new ActivityWaitInFacility(ParentControlUnit, Patient, Patient.OccupiedFacility);
                     SequentialEvents.Add(waitInFacility.StartEvent);
                 } // end if
             } // end if
-
-
         } // end of Trigger
 
         #endregion
@@ -105,10 +109,7 @@ namespace GeneralHealthCareElements.DepartmentModels.Emergency
         /// </summary>
         public IInputEmergency InputData
         {
-            get
-            {
-                return _inputData;
-            }
+            get { return _inputData; }
         } // end of InputData
 
         #endregion
@@ -126,10 +127,7 @@ namespace GeneralHealthCareElements.DepartmentModels.Emergency
         /// </summary>
         public EntityPatient Patient
         {
-            get
-            {
-                return _patient;
-            }
+            get { return _patient; }
         } // end of Patient
 
         #endregion
@@ -141,10 +139,7 @@ namespace GeneralHealthCareElements.DepartmentModels.Emergency
         /// </summary>
         public override Entity[] AffectedEntities
         {
-            get
-            {
-                return new Entity[] { Patient };
-            }
+            get { return new Entity[] { Patient }; }
         } // end of AffectedEntities
 
         #endregion

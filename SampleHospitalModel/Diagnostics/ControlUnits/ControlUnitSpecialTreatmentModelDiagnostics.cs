@@ -34,25 +34,25 @@ namespace SampleHospitalModel.Diagnostics
         /// <param name="waitingListSchedule">Waiting list schedule responsible for booking of diagnostic assessments</param>
         /// <param name="inputData">Input data responsible for diagnostic control</param>
         public ControlUnitSpecialTreatmentModelDiagnostics(string name,
-                            ControlUnit parentControlUnit,
-                           SimulationModel parentSimulationModel,
-                           SpecialServiceAdmissionTypes[] admissionsAvailable,
-                            EntityWaitingListSchedule waitingListSchedule,
-                            IInputSpecialFacility inputData)
-            : base(name, 
-                    parentControlUnit, 
-                    admissionsAvailable, 
-                    parentSimulationModel, 
-                    waitingListSchedule,
-                    inputData)
+            ControlUnit parentControlUnit,
+            SimulationModel parentSimulationModel,
+            SpecialServiceAdmissionTypes[] admissionsAvailable,
+            EntityWaitingListSchedule waitingListSchedule,
+            IInputSpecialFacility inputData)
+            : base(name,
+                parentControlUnit,
+                admissionsAvailable,
+                parentSimulationModel,
+                waitingListSchedule,
+                inputData)
         {
-            
+
         } // end of ControlUnit
 
         #endregion
 
         #region Initialize
-        
+
         /// <summary>
         /// Just adds the waiting list schedule to the controlled entities and intializes it
         /// </summary>
@@ -84,7 +84,7 @@ namespace SampleHospitalModel.Diagnostics
         {
             bool eventLaunched = false;
 
-            while(PerformDisptatching(time, simEngine))
+            while (PerformDisptatching(time, simEngine))
             {
                 eventLaunched = true;
             } // end while
@@ -106,19 +106,23 @@ namespace SampleHospitalModel.Diagnostics
         /// <returns>False</returns>
         private bool PerformDisptatching(DateTime time, ISimulationEngine simEngine)
         {
-            List<RequestSpecialFacilityAction> actionRequests = RAEL.Where(p => p.GetType() == typeof(RequestSpecialFacilityAction)).Cast < RequestSpecialFacilityAction>().ToList();
+            List<RequestSpecialFacilityAction> actionRequests =
+                RAEL.Where(p => p.GetType() == typeof(RequestSpecialFacilityAction))
+                    .Cast<RequestSpecialFacilityAction>().ToList();
 
             while (actionRequests.Count > 0)
             {
                 ResourceSet chosenResources;
 
                 // Get action request Triage-FIFO
-                RequestSpecialFacilityAction requestAction = PatientPriorityPlusFIFO<RequestSpecialFacilityAction, SpecialServiceActionTypeClass>(actionRequests);
+                RequestSpecialFacilityAction requestAction =
+                    PatientPriorityPlusFIFO<RequestSpecialFacilityAction, SpecialServiceActionTypeClass>(
+                        actionRequests);
 
                 actionRequests.Remove(requestAction);
 
                 if (!ChooseResourcesForAction(requestAction,
-                    out chosenResources))
+                        out chosenResources))
                 {
                     continue;
                 } // enf if
@@ -127,13 +131,14 @@ namespace SampleHospitalModel.Diagnostics
                 RemoveRequest(requestAction);
                 EntityPatient patient = (EntityPatient)requestAction.Origin.First();
 
-                ActivityHealthCareAction<SpecialServiceActionTypeClass> action = new ActivityHealthCareAction<SpecialServiceActionTypeClass>(
-                    this,
-                    InputData,
-                    patient,
-                    chosenResources,
-                    requestAction.ActionType,
-                    patient.SpecialFacilityPath);
+                ActivityHealthCareAction<SpecialServiceActionTypeClass> action =
+                    new ActivityHealthCareAction<SpecialServiceActionTypeClass>(
+                        this,
+                        InputData,
+                        patient,
+                        chosenResources,
+                        requestAction.ActionType,
+                        patient.SpecialFacilityPath);
 
                 chosenResources.StopCurrentActivities(time, simEngine);
                 patient.StopCurrentActivities(time, simEngine);
@@ -161,9 +166,11 @@ namespace SampleHospitalModel.Diagnostics
         /// <param name="entity">Entering entity, for this control a patient</param>
         /// <param name="originDelegate">The delegate that is responsible for entering</param>
         /// <returns>The entering event of the patient</returns>
-        public override Event EntityEnterControlUnit(DateTime time, ISimulationEngine simEngine, Entity entity, IDelegate originDelegate)
+        public override Event EntityEnterControlUnit(DateTime time, ISimulationEngine simEngine, Entity entity,
+            IDelegate originDelegate)
         {
-            return new EventSpecialFacilityPatientArrival(this, (EntityPatient)entity, ((RequestSpecialFacilitiyService)originDelegate), InputData);
+            return new EventSpecialFacilityPatientArrival(this, (EntityPatient)entity,
+                ((RequestSpecialFacilitiyService)originDelegate), InputData);
         } // end of EntityEnterControlUnit
 
         #endregion
@@ -177,9 +184,10 @@ namespace SampleHospitalModel.Diagnostics
         /// <param name="simEngine"></param>
         /// <param name="entity"></param>
         /// <param name="originDelegate"></param>
-        public override void EntityLeaveControlUnit(DateTime time, ISimulationEngine simEngine, Entity entity, IDelegate originDelegate)
+        public override void EntityLeaveControlUnit(DateTime time, ISimulationEngine simEngine, Entity entity,
+            IDelegate originDelegate)
         {
-            
+
         } // end of EntityLeaveControlUnit
 
         #endregion
@@ -225,7 +233,7 @@ namespace SampleHospitalModel.Diagnostics
                 }
                 else
                 {
-                    
+
                 } // end if
 
             } // end if
@@ -284,7 +292,7 @@ namespace SampleHospitalModel.Diagnostics
 
                 } // end if
 
-            }// end if
+            } // end if
 
             #endregion
 
@@ -379,7 +387,7 @@ namespace SampleHospitalModel.Diagnostics
 
                 } // end if
 
-            }// end if
+            } // end if
 
             #endregion
 
@@ -408,6 +416,5 @@ namespace SampleHospitalModel.Diagnostics
         } // end of ChooseResourcesForAction
 
         #endregion
-
-    } // end of DiagnosticControlUnit
-}
+    }
+} // end of DiagnosticControlUnit

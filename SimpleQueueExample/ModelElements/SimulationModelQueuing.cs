@@ -63,15 +63,10 @@ namespace SimpleQueueExample.ModelElements
         } // end of CustomInitializeModel
 
         #endregion
+        
 
-        #region GetModelString
-
-        public override string GetModelString()
-        {
-            return "QueuingModel";
-        } // end of GetModelString
-
-        #endregion
+        public override string GetModelString() => "QueuingModel";  // end of GetModelString
+        
 
         #region ResetModel
 

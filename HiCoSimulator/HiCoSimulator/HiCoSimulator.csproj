@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HiCoSimulator</RootNamespace>
     <AssemblyName>HiCoSimulator</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
@@ -100,6 +100,10 @@
     <Resource Include="Icons\PlayIcon.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\RailCargo\RailCargo.csproj">
+      <Project>{49458a63-b651-4645-8887-f4b06c1edbc6}</Project>
+      <Name>RailCargo</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\SampleHospitalModel\SampleHospitalModel.csproj">
       <Project>{08fee1b9-8e57-4f3a-a600-296c3c611093}</Project>
       <Name>SampleHospitalModel</Name>
